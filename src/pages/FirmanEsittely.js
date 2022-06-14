@@ -1,6 +1,17 @@
 function FirmanEsittely() {
     return (
-        <h1>this is the FirmanEsittely</h1>
+        <div className=" h-auto bg-blue-400 ">
+            
+            <h1>
+                Firman esittely:
+            </h1>
+
+            
+            <p>
+                Tää on komee paikka olla "töissä"
+            </p>
+
+        </div>
     );
 }
 

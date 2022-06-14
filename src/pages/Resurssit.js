@@ -1,6 +1,17 @@
 function Resurssit() {
     return (
-        <h1>this is the Resurssit</h1>
+        <div className=" h-auto bg-blue-400 ">
+            
+            <h1>
+                Resurssit:
+            </h1>
+
+            
+            <p>
+                Not enough minerals
+            </p>
+
+        </div>
     );
 }
 
