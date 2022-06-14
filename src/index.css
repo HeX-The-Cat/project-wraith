@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 800px){
+    .pageWidth {
+        width: 800px
+    }
+}
+
+@media (max-width: 799px){
+    .pageWidth{
+        width: 100%
+    }
+}

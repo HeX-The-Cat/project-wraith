@@ -1,10 +1,29 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from './pages/Layout';
+import DevBlog from './pages/DevBlog';
+import FirmanEsittely from './pages/FirmanEsittely';
+import PelinEsittely from './pages/PelinEsittely';
+import Resurssit from './pages/Resurssit';
+import Trivia from './pages/Trivia';
+import NoPage from './pages/NoPage';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<PelinEsittely />} />
+          <Route path="FirmanEsittely" element={<FirmanEsittely />} />
+          <Route path="DevBlog" element={<DevBlog />} />
+          <Route path="Resurssit" element={<Resurssit />} />
+          <Route path="Trivia" element={<Trivia />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
