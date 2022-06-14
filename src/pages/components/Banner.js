@@ -1,7 +1,7 @@
 const Banner = () => {
     return (
-        <div className=" h-24 bg-red-400 pageWidth">
-            <p>Banner</p>
+        <div className=" h-24 bg-red-400">
+            <h1 className=" text-2xl font-extrabold text-center">Borke Code Gaems</h1>
         </div>
     )
 }
