@@ -1,7 +1,6 @@
-function Resurssit() {
+const Resurssit = () => {
     return (
-        <div className=" h-auto bg-blue-400 ">
-            
+        <div className=" h-auto transparencyBlue ">
             <h1>
                 Resurssit:
             </h1>
@@ -10,7 +9,6 @@ function Resurssit() {
             <p>
                 Not enough minerals
             </p>
-
         </div>
     );
 }

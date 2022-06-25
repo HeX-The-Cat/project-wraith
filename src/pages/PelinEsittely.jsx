@@ -1,7 +1,6 @@
-function PelinEsittely() {
+const PelinEsittely = () => {
     return (
-        <div className=" h-auto bg-blue-400 ">
-
+        <div className=" h-auto transparencyBlue ">
             <h1>
                 Pelin esittely:
             </h1>
@@ -44,7 +43,6 @@ function PelinEsittely() {
             Nunc aliquet bibendum enim facilisis gravida. Porttitor lacus luctus accumsan tortor posuere ac ut.
             Faucibus turpis in eu mi bibendum. Rhoncus dolor purus non enim praesent elementum facilisis.
             </p>
-
         </div>
     );
 }

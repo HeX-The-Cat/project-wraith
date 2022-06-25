@@ -8,7 +8,7 @@ import Resurssit from './pages/Resurssit';
 import Trivia from './pages/Trivia';
 import NoPage from './pages/NoPage';
 
-function App() {
+const App = () => {
   return (
 
     <BrowserRouter>

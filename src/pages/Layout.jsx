@@ -6,8 +6,7 @@ import BottomInfo from './components/BottomInfo';
 
 const Layout = () => {
   return (
-    
-    <div className=' bg-gray-500 flex justify-center h-screen'>
+      <div className=' flex justify-center h-screen'>
         <div className='pageWidth' >
             <Banner />
 
@@ -17,7 +16,7 @@ const Layout = () => {
 
             <BottomInfo />
         </div>
-    </div>
+      </div>
   );
 };
 
