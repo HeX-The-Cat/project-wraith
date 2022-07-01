@@ -2,7 +2,7 @@
   "name": "project-wraith",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://HeX-The-Cat.github.io/project-wraith/",
+  "homepage": "https://hex-the-cat.github.io/project-wraith/",
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
