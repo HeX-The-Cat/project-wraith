@@ -1,7 +1,11 @@
+import header from '../img/Header.jpg'
+
 const Banner = () => {
     return (
-        <div className=" h-24 transparencyRed">
-            <h1 className=" text-2xl font-extrabold text-center">Borke Code Gaems</h1>
+        <div className=" flex justify-center">
+            <a>
+                <img src={header} />
+            </a>
         </div>
     )
 }

@@ -1,10 +1,9 @@
 const PelinEsittely = () => {
     return (
-        <div className=" h-auto transparencyBlue ">
+        <div className=" h-auto ">
             <h1>
                 Pelin esittely:
             </h1>
-
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Rhoncus urna neque viverra justo nec ultrices dui sapien eget.

@@ -3,14 +3,11 @@ import BlogPosts from "./components/DevBlogJson.json";
 
 const DevBlog = () => {
     return (
-        <div className=" h-auto transparencyBlue ">
-            <h1>
-                DevBlog:
-            </h1>
-            
+        <div className=" h-auto ">
             {BlogPosts.map((item, index) => {
                 return(
                     <BlogPost 
+                        index={item.index}
                         key={item.otsikko + index}
                         otsikko={item.otsikko}
                         paivaus={item.paivaus}

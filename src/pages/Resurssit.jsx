@@ -1,6 +1,6 @@
 const Resurssit = () => {
     return (
-        <div className=" h-auto transparencyBlue ">
+        <div className=" h-auto ">
             <h1>
                 Resurssit:
             </h1>
